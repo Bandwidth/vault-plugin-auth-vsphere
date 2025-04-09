@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  schemaVersion: v1.0.0
+  name: vault-plugin-auth-vsphere
+  description: Forked from https://github.com/martezr/vault-plugin-auth-vsphere
+  annotations:
+    github.com/project-slug: Bandwidth/vault-plugin-auth-vsphere
+  organization: BW
+  costCenter: undefined
+  platformType: AWS
+  buildPlatform: GitHub Actions
+spec:
+  type: Utility
+  owner: github/undefined
+  lifecycle: |-
+    Prototype
+    undefined
